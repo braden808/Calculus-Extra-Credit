@@ -1,0 +1,79 @@
+html{
+	background-color: #4F7CAC;
+}
+
+#title {
+	text-align: center;
+	color: white;
+}
+
+.jumbotron {
+
+	background: url(https://images.unsplash.com/photo-1446329360995-b4642a139973?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cee87b8debba5fa366b2f041fcfbbebe&auto=format&fit=crop&w=970&q=80);
+	margin-bottom: 0px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: black 0.3em 0.3em 0.3em;
+
+}
+
+#wrap {
+	text-align: center;
+	background-color: #4F7CAC;
+	width: 100%;
+
+}
+
+
+#wrap div {
+	height: 300px;
+	background-color: #EDF0DA;
+	border-style: solid;
+
+}
+
+.contentWrap{
+		text-align: center;
+		width: 100%;
+		background-color: #4F7CAC;
+		padding-left: 10%;
+		padding-right: 10%;
+
+}
+
+.contentWrap .backgroundSave {
+	background-color: #EDF0DA;
+	border-style: solid;
+}
+
+div img {
+	height: 40px;
+	width: 40px;
+}
+
+.bodyBreak {
+	height: 20px;
+	background-color: #4F7CAC;
+}
+
+.sections h2 {
+	font-weight: bold;
+}
+
+#mathJokes div h1 {
+	font-weight: bold;
+}
+
+#mathJokes div p {
+	font-size: 14pt;
+}
+
+#answer {
+	display: none;
+}
+
+.contentBreak {
+	height: 20px;
+	background-color: #EDF0DA;
+}
