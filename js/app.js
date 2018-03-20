@@ -10,8 +10,8 @@ function derive() {
 
   //Joke Arrays
 
-  var questions = ['hello', 'world','how'];
-  var answers = ['hello','world','how'];
+  var questions = ['Why do they never serve beer at a math party?', 'Why wont Goldilocks drink a glass of water with 8 pieces of ice in it?','What is the first derivative of a cow?'];
+  var answers = ['Because you can\'t drink and derive...','It\'s too cubed','Prime Rib!'];
 
   var random = Math.floor(Math.random() * questions.length);
   var show = document.getElementById('mathJokes');
@@ -51,3 +51,6 @@ document.getElementById('newJoke').addEventListener('click',function() {
 
 });
 
+document.getElementById('derive').addEventListener('click',function() {
+	location.href = 'derive.html';
+});
