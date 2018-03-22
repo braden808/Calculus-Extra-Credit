@@ -146,8 +146,8 @@ div	h3 {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 250px) {
-    .sidenav {padding-top: 15px;}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px; height: 200px;}
     .sidenav a {font-size: 18px;}
 }
 
