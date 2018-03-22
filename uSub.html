@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>CalcHub - uSub</title>
+		<title>CalcHub - Integrate</title>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
@@ -11,22 +11,24 @@
 
 		<div class="sidenav">
 			<a href="index.html">Home</a>
-			<a href="derive.html">Derivatives</a>
+			<a href="derive.html">Limit Definition of Derivatives</a>
+			<a href="shortcut.html">Derivatives (Shortcut)</a>
 			<a href="integral.html">Integrals</a>
 			<a href="uSub.html">u-sub</a>
 		</div>
 
 		<div  id="title" class="jumbotron">
-			<h1>Derive</h1>
+			<h1>Integrate</h1>
 			<p>
-				<em>Students will learn how to find the derivative</em>
+				<em>Students will learn how to <strong>Integrate</strong>.</em>
 			</p>
-			<h2>dy/dx or y'</h2>
+			<h2>∫</h2>
+			<button class="btn-primary btn-lg" id="toggle">Lessons</button>
 		</div>
 
 		<div class="bodyBreak"></div>
-
-		<div class="contentWrap">
+		<!-- Lesson Quote -->
+		<div id="upper" class="b">
 			<div class="backgroundSave">
 				<div>
 					<h3>
@@ -34,35 +36,118 @@
 					</h3>
 					<p>
 						<em>
-							Failure is success if we learn from it.
+							You can't go forward and backwards at the same time.
 							<br>
-							- Malcom Forbes
+							- Steve Harvey
 						</em>
 					</p>
 					<div class="contentBreak"></div>
-					<p></p>
+					<p>This lesson is the exact opposite of derivatives.  Integration is actually reverse deriving. </p>
 				</div>
 			</div>
 			<div class="bodyBreak"></div>
+			<!-- Derivative Importance -->
 			<div class="backgroundSave">
 				<div>
-					<h3>Derivatives</h3>
+					<h3>Integration</h3>
 					<br>
-					<p>Derivatives is a key factor to Calculus.  Almost every single problem involves deriving or integration.  Right now we will learn to find the derivative using the <strong>Limit Definition of the Derivative</strong>.</p>
+					<p>Integration is a key concept in Calculus.  Many Calculus problems involve integration.  Right now we will learn to find the integral using the <strong>Power Rule</strong> in integration form.</p>
 					<br>
 				</div>
 			</div>
 			<div class="bodyBreak"></div>
+			<!-- Components -->
 			<div class="backgroundSave">
 				<div>
-					<h3>Limit Definition of the Derivative steps</h3>
+					<h3>Rules and Tips</h3>
 					<br>
-					<p><strong>Step 1:</strong> Identify f(x)</p>
+					<h3>Power Rule</h3>
+					<img class="derFormula" src="http://tutorial.math.lamar.edu/Classes/CalcI/ComputingIndefiniteIntegrals_files/eq0001P.gif">
+					<h3>
+						<ul class="components">
+							<li>c stands for constant</li>
+							<li>n can never equal to -1</li>
+							<li>Remember to add + C</li>
+						</ul>
+						<br>
+						Sub Rules
+						<ul class="components">
+							<li>Multiplication by constant:	<strong>∫cf(x) dx = c∫f(x) dx</strong></li>
+							<li>Sum Rule: <strong>∫(f + g) dx = ∫f dx + ∫g dx</strong></li>
+							<li>Difference Rule: <strong>∫(f - g) dx = ∫f dx - ∫g dx</strong></li>
+						</ul>
+					</h3>
 					<br>
 				</div>
 			</div>
 		</div>
-	</body>
+		<div id="lower" class="b">
+			<!-- Steps -->
+			<div class="bodyBreak"></div>
+			<div class="backgroundSave">
+				<div id="derSteps">
+					<h3>Indefinite Integrals Steps</h3>
+					<br>
+					<p><strong>Step 1:</strong> Identify what needs to be inntegrated</p>
+					<br>
+					<p><strong>Step 2:</strong> Use any of the Sub Rules if needed</p>
+					<br>
+					<p><strong>Step 3:</strong> Use the Power Rule</p>
+					<br>
+				</div>
+			</div>
+			<div class="bodyBreak"></div>
+			<div class="backgroundSave" id="derExample">
+				<h3>Problem Example (Step by Step)</h3>
+					<p><strong>Problem:</strong><img id="img1" src="http://tutorial.math.lamar.edu/Classes/CalcI/DefnOfDerivative_files/eq0008M.gif"></p>
+					<br>
+					<p><strong>Step 1:</strong> Identify what needs to be integrated
+						<br>
+						<img src="http://tutorial.math.lamar.edu/Problems/CalcI/ComputingIndefiniteIntegrals_files/eq0001M.gif">
+					</p>
+					<br>
 
+					<p><strong>Step 2:</strong> Is not needed because no sub rules are needed for this problem</p>
+					<br>
+					<p><strong>Step 3:</strong> Power Rule</p>
+					<img src="http://tutorial.math.lamar.edu/Solutions/CalcI/ComputingIndefiniteIntegrals/Prob1_files/eq0001M.gif">					
+					<br>
+					<br>
+
+			</div>
+			<div class="bodyBreak"></div>
+			<div class="backgroundSave">
+				<h3>Video Help</h3>
+				<br>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/o75AqTInKDU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<br>
+			</div>
+
+			<div class="bodyBreak"></div>
+
+			<div class="backgroundSave">
+				<h3>Downloadable Worksheet</h3>
+				<p>Now that you have learned the skill, it is time to practice and perfect it.</p>
+				<button id="deriveWorksheet" class="btn-primary btn-lg">Limit Definition of Derivatives Worksheet with Answer sheet</button>
+				<div class="contentBreak"></div>
+			</div>
+			<div class="bodyBreak"></div>
+			<div class="backgroundSave">
+				<h3>Helpful Resources</h3>
+				<ul style="list-style-type:none; margin-left: -5%;">
+					<li><a target="_blank" href="https://www.integral-calculator.com/">Integral Calculator</a></li>
+					<li><a target="_blank" href="https://www.youtube.com/channel/UCEWpbFLzoYGPfuWUMFPSaoA">Helpful Youtube Channel</a></li>
+					<li><a target="_blank" href="https://www.mathsisfun.com/calculus/integration-rules.html">Rules</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- end of container -->
+		<div class="bodyBreak"></div>
+		<!-- copyright -->
+		<div class="bodyBreak" id="copyright">
+			<p>©BradenAmorozo</p>
+		</div>
+		
+	</body>
 	<script type="text/javascript" src="js/derive.js"></script>
 </html>
