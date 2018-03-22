@@ -54,3 +54,15 @@ document.getElementById('newJoke').addEventListener('click',function() {
 document.getElementById('derive').addEventListener('click',function() {
 	location.href = 'derive.html';
 });
+
+document.getElementById('integrate').addEventListener('click',function() {
+	location.href = 'integral.html';
+});
+
+document.getElementById('uSub').addEventListener('click',function() {
+	location.href = 'uSub.html';
+});
+
+document.getElementById('deriveShort').addEventListener('click',function() {
+	location.href = 'shortcut.html';
+});

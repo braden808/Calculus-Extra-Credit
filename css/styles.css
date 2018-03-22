@@ -35,12 +35,20 @@ html{
 
 /*Wraps Content and Keeps Proper Background*/
 
-.contentWrap{
+.a{
 		text-align: center;
 		width: 100%;
 		background-color: #4F7CAC;
 		padding-left: 180px;
 		padding-right:3%;
+}
+
+.b{
+		text-align: center;
+		width: 100%;
+		background-color: #4F7CAC;
+		padding-left: 5%;
+		padding-right:5%;
 }
 
 #mathJokes{
@@ -51,7 +59,12 @@ html{
 		padding-right:10%;
 }
 
-.contentWrap .backgroundSave {
+.a .backgroundSave {
+	background-color: #EDF0DA;
+	border-style: solid;
+}
+
+.b .backgroundSave {
 	background-color: #EDF0DA;
 	border-style: solid;
 }
@@ -153,7 +166,10 @@ div	h3 {
 .goal {
 	text-align: center;
 }
-#derExample img {
+#img1 {
 	height: 27px;
 	width: 160px;
+}
+body {
+	height: 100%;
 }
