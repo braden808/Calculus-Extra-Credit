@@ -1,6 +1,6 @@
 console.log('test')
 document.getElementById('deriveWorksheet').addEventListener('click',function() {
-	window.open('Worksheets/Derive1.Pdf','_blank');
+	window.open('Worksheets/powerRule.Pdf','_blank');
 });
 
 document.getElementById('toggle').addEventListener('click',function(){
