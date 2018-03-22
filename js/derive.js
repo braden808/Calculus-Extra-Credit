@@ -1,6 +1,6 @@
 console.log('test')
 document.getElementById('deriveWorksheet').addEventListener('click',function() {
-	window.open('Worksheets/Derive1.Pdf','_blank');
+	window.open('https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Definition%20of%20the%20Derivative.pdf','_blank');
 });
 
 document.getElementById('toggle').addEventListener('click',function(){

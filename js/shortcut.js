@@ -1,6 +1,6 @@
 console.log('test')
 document.getElementById('deriveWorksheet').addEventListener('click',function() {
-	window.open('Worksheets/powerRule.Pdf','_blank');
+	window.open('https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Power%20Constant%20and%20Sum%20Rules.pdf','_blank');
 });
 
 document.getElementById('toggle').addEventListener('click',function(){
