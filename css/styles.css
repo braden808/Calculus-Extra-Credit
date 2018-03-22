@@ -113,7 +113,7 @@ div	h3 {
 }
 
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
+    height: 755px; /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */
     position: absolute; /* Fixed Sidebar (stay in place on scroll) */
     background-color: #111; /* Black */
@@ -145,9 +145,9 @@ div	h3 {
     padding: 0px 10px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px; height: 200px;}
+/* Smartphones (portrait) ----------- */
+@media screen and (min-width : 0px) and (max-width : 767px){
+    .sidenav {padding-top: 15px; height: 755px}
     .sidenav a {font-size: 18px;}
 }
 

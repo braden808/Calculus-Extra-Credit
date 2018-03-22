@@ -10,8 +10,8 @@ function derive() {
 
   //Joke Arrays
 
-  var questions = ['Why do they never serve beer at a math party?', 'Why wont Goldilocks drink a glass of water with 8 pieces of ice in it?','What is the first derivative of a cow?'];
-  var answers = ['Because you can\'t drink and derive...','It\'s too cubed','Prime Rib!'];
+  var questions = ['Why do they never serve beer at a math party?', 'Why wont Goldilocks drink a glass of water with 8 pieces of ice in it?','What is the first derivative of a cow?','What\'s the derivative of Amazon with respect to cost of shipping?', 'What did Al Gore play on his guitar?','Why was the parent function upset with its child?', 'Why is a calculus book always unhappy?', 'What is the integral of log cabin d cabin?']
+  var answers = ['Because you can\'t drink and derive...','It\'s too cubed','Prime Rib!','Amazon Prime!','An Algorithim','It was stretched to its limit','Because it always has lots of problems','Log Cabin + sea = houseboat'];
 
   var random = Math.floor(Math.random() * questions.length);
   var show = document.getElementById('mathJokes');
