@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>CalcHub - Integrate</title>
+		<title>CalcHub - uSub</title>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
@@ -20,7 +20,7 @@
 		<div  id="title" class="jumbotron">
 			<h1>Integrate</h1>
 			<p>
-				<em>Students will learn how to <strong>Integrate</strong>.</em>
+				<em>Students will learn how to <strong>Integrate</strong> with <strong>u-substitution</strong></em>
 			</p>
 			<h2>∫</h2>
 			<button class="btn-primary btn-lg" id="toggle">Lessons</button>
@@ -36,13 +36,13 @@
 					</h3>
 					<p>
 						<em>
-							You can't go forward and backwards at the same time.
+							"There is no substitute for hard work."
 							<br>
-							- Steve Harvey
+							- Thomas A. Edison
 						</em>
 					</p>
 					<div class="contentBreak"></div>
-					<p>This lesson is the exact opposite of derivatives.  Integration is actually reverse deriving. </p>
+					<p>There's a subtitute for integrals Thomas Edison.</p>
 				</div>
 			</div>
 			<div class="bodyBreak"></div>
@@ -51,30 +51,27 @@
 				<div>
 					<h3>Integration</h3>
 					<br>
-					<p>Integration is a key concept in Calculus.  Many Calculus problems involve integration.  Right now we will learn to find the integral using the <strong>Power Rule</strong> in integration form.</p>
+					<p>Integration is a key concept in Calculus.  Many Calculus problems involve integration.  Right now we will learn to find the integral using <strong>u-substitution</strong>.</p>
 					<br>
 				</div>
+			</div>
+			<div class="bodyBreak"></div>
+			<div class="backgroundSave">
+				<h3>Why u-substitution is preffered</h3>
+				<p>U-substitution is preffered for usage because it automatically compensates for the values needs to be added when you solve for du.  For other methods like the baby prime method, you will have to compensate manually.</p>
 			</div>
 			<div class="bodyBreak"></div>
 			<!-- Components -->
 			<div class="backgroundSave">
 				<div>
-					<h3>Rules and Tips</h3>
+					<h3>Components and Tips</h3>
 					<br>
-					<h3>Power Rule</h3>
-					<img class="derFormula" src="http://tutorial.math.lamar.edu/Classes/CalcI/ComputingIndefiniteIntegrals_files/eq0001P.gif">
 					<h3>
 						<ul class="components">
-							<li>c stands for constant</li>
-							<li>n can never equal to -1</li>
+							<li>Make sure you have space for side work</li>
+							<li>In your sidework, identify what u will be and what du will be</li>
 							<li>Remember to add + C</li>
-						</ul>
-						<br>
-						Sub Rules
-						<ul class="components">
-							<li>Multiplication by constant:	<strong>∫cf(x) dx = c∫f(x) dx</strong></li>
-							<li>Sum Rule: <strong>∫(f + g) dx = ∫f dx + ∫g dx</strong></li>
-							<li>Difference Rule: <strong>∫(f - g) dx = ∫f dx - ∫g dx</strong></li>
+							<li>Return to initial variable at the very end</li>
 						</ul>
 					</h3>
 					<br>
@@ -86,32 +83,43 @@
 			<div class="bodyBreak"></div>
 			<div class="backgroundSave">
 				<div id="derSteps">
-					<h3>Indefinite Integrals Steps</h3>
+					<h3>u-substitution Steps</h3>
 					<br>
-					<p><strong>Step 1:</strong> Identify what needs to be inntegrated</p>
+					<p><strong>Step 1:</strong> Choose a new variable <strong>u</strong>.</p>
 					<br>
-					<p><strong>Step 2:</strong> Use any of the Sub Rules if needed</p>
+					<p><strong>Step 2:</strong> Determine the value <strong>dx</strong>.</p>
 					<br>
-					<p><strong>Step 3:</strong> Use the Power Rule</p>
+					<p><strong>Step 3:</strong> Make the substitution.</p>
+					<br>					
+					<p><strong>Step 4:</strong> Integrate resulting integral.</p>
+					<br>
+					<p><strong>Step 5:</strong> Return to the initial variable <strong>x</strong>.</p>
 					<br>
 				</div>
 			</div>
 			<div class="bodyBreak"></div>
 			<div class="backgroundSave" id="derExample">
 				<h3>Problem Example (Step by Step)</h3>
-					<p><strong>Problem:</strong><img id="img1" src="http://tutorial.math.lamar.edu/Classes/CalcI/DefnOfDerivative_files/eq0008M.gif"></p>
+					<p><strong>Problem:</strong><img src="https://www.mathportal.org/calculus/integration-techniques/integration-by-substitution_files/1.gif"></p>
 					<br>
-					<p><strong>Step 1:</strong> Identify what needs to be integrated
+					<p><strong>Step 1:</strong> Choose a new variable
 						<br>
-						<img src="http://tutorial.math.lamar.edu/Problems/CalcI/ComputingIndefiniteIntegrals_files/eq0001M.gif">
+						<p>The substitution function is  substitution function <img src="https://www.mathportal.org/calculus/integration-techniques/integration-by-substitution_files/2.gif"></p>
 					</p>
+					<p><strong>Step 2:</strong> Determine the value <strong>dx</strong>.</p>
+					<img src="https://www.mathportal.org/calculus/integration-techniques/integration-by-substitution_files/3.gif">
 					<br>
-
-					<p><strong>Step 2:</strong> Is not needed because no sub rules are needed for this problem</p>
+					<p><strong>Step 3:</strong> Make the substitution.</p>
+					<img src="https://www.mathportal.org/calculus/integration-techniques/integration-by-substitution_files/4.gif">
+					<br>					
+					<p><strong>Step 4:</strong> Integrate resulting integral.</p>
+					<img src="https://www.mathportal.org/calculus/integration-techniques/integration-by-substitution_files/5.gif">
 					<br>
-					<p><strong>Step 3:</strong> Power Rule</p>
-					<img src="http://tutorial.math.lamar.edu/Solutions/CalcI/ComputingIndefiniteIntegrals/Prob1_files/eq0001M.gif">					
+					<p><strong>Step 5:</strong> Return to the initial variable <strong>x</strong>.</p>
+					<img src="https://www.mathportal.org/calculus/integration-techniques/integration-by-substitution_files/6.gif">
 					<br>
+					<br>
+					<p>The solution is <img src="https://www.mathportal.org/calculus/integration-techniques/integration-by-substitution_files/7.gif"></p>
 					<br>
 
 			</div>
@@ -119,7 +127,7 @@
 			<div class="backgroundSave">
 				<h3>Video Help</h3>
 				<br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/o75AqTInKDU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/0A2RlnutO8U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				<br>
 			</div>
 
@@ -128,7 +136,7 @@
 			<div class="backgroundSave">
 				<h3>Downloadable Worksheet</h3>
 				<p>Now that you have learned the skill, it is time to practice and perfect it.</p>
-				<button id="deriveWorksheet" class="btn-primary btn-lg">Limit Definition of Derivatives Worksheet with Answer sheet</button>
+				<button id="deriveWorksheet" class="btn-primary btn-lg">u-Substitution Worksheet with Answer sheet</button>
 				<div class="contentBreak"></div>
 			</div>
 			<div class="bodyBreak"></div>
@@ -137,7 +145,6 @@
 				<ul style="list-style-type:none; margin-left: -5%;">
 					<li><a target="_blank" href="https://www.integral-calculator.com/">Integral Calculator</a></li>
 					<li><a target="_blank" href="https://www.youtube.com/channel/UCEWpbFLzoYGPfuWUMFPSaoA">Helpful Youtube Channel</a></li>
-					<li><a target="_blank" href="https://www.mathsisfun.com/calculus/integration-rules.html">Rules</a></li>
 				</ul>
 			</div>
 		</div>
@@ -149,5 +156,5 @@
 		</div>
 		
 	</body>
-	<script type="text/javascript" src="js/derive.js"></script>
+	<script type="text/javascript" src="js/uSub.js"></script>
 </html>

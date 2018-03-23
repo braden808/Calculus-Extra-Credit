@@ -1,6 +1,6 @@
 console.log('test')
 document.getElementById('deriveWorksheet').addEventListener('click',function() {
-	window.open('http://www.holland.wnyric.org/cms/lib/NY19000531/Centricity/Domain/129/Basic%20Integration%20Problems.pdf','_blank');
+	window.open('https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Substitution%20Power%20Rule.pdf','_blank');
 });
 
 document.getElementById('toggle').addEventListener('click',function(){
